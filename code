@@ -1,2 +1,14 @@
-def win(M):
-  For i in M
+import numpy as np
+
+
+def plateau(n, m):
+    plateau2 = []
+    for i in range(n):
+        ligne = []
+        for i in range(m):
+            ligne.append(0)
+        plateau2.append(ligne)
+    return plateau2
+
+for i in plateau2:
+    print('\n'.join(map(str, i)))
